@@ -1,0 +1,8 @@
+secreto = 22
+número = int(input ("Digite um número:"))
+if (número > secreto):
+  print (" você informou um número maior")
+elif (número < secreto):
+  print ("Menor que o número secreto")
+else:
+ print ("Você acertou!")
